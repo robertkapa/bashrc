@@ -36,3 +36,21 @@ Siga os passos 1 e 2.
 $ ln -sf $(pwd)/bash_profile /etc/profile
 $ ln -sf $(pwd)/bashrc /etc/bash.bashrc
 ```
+
+## Fazendo funcionar no server
+
+1 - Adicione portas ativas para conexão do ssh com sublime: abra o arquivo `/etc/ssh/ssh_config` e adicione a linha abaixo: 
+
+```
+RemoteForward 52698 127.0.0.1:52698
+```
+
+2 - Abra o sublime
+
+3 - Conecte no server que quer atuar usando o comando `s` + `ip`:
+```
+$ s 0.0.0.0
+```
+
+
+
