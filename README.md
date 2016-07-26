@@ -52,5 +52,9 @@ RemoteForward 52698 127.0.0.1:52698
 $ s 0.0.0.0
 ```
 
+4 - Caso mude de usuário, use a seguinte linha para retornar ao bash customizado:
+```
+$ bash --rcfile /tmp/.bashrc_temp
+```
 
 
