@@ -39,7 +39,7 @@ $ ln -sf $(pwd)/bashrc /etc/bash.bashrc
 
 ## Fazendo funcionar no server
 
-1 - Adicione portas ativas para conexão do ssh com sublime: abra o arquivo `/etc/ssh/ssh_config` e adicione a linha abaixo: 
+1 - Adicione portas ativas para conexão do ssh com sublime: abra o arquivo `/etc/ssh/ssh_config` na sua máquina local e adicione a linha abaixo: 
 
 ```
 RemoteForward 52698 127.0.0.1:52698
