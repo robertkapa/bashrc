@@ -49,7 +49,7 @@ RemoteForward 52698 127.0.0.1:52698
 
 3 - Conecte no server que quer atuar usando o comando `s` + `ip`:
 ```
-$ s 0.0.0.0
+$ s user@0.0.0.0
 ```
 
 4 - Caso mude de usuário, use a seguinte linha para retornar ao bash customizado:
